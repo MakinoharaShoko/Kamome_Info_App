@@ -11,7 +11,7 @@ const Links = ()=>{
                 <a href="http://ylinknest.top/" target="_blank" rel="noopener">ylink’s Nest</a>
             </Paragraph>
             <Paragraph>
-                <a href="http://www.zhtsu.cn/" target="_blank" rel="noopener">zhisu</a>
+                <a href="http://www.zhtsu.cn/" target="_blank" rel="noopener">ZhTSu</a>
             </Paragraph>
             <Paragraph>
                 <a href="https://lzacg.us/" target="_blank" rel="noopener">量子 ACG</a>
