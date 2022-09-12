@@ -5,25 +5,30 @@ import {ClockCircleOutlined} from '@ant-design/icons';
 
 const About = () => {
     return <div id={"about"}>
-        <Descriptions title="Kamome" bordered>
+        <Descriptions title="Mahiru（真昼酱）" bordered>
             <Descriptions.Item label="Github"><a
-                href="https://github.com/MakinoharaShoko">Kamome</a></Descriptions.Item>
+                href="https://github.com/MakinoharaShoko">Mahiru</a></Descriptions.Item>
             <Descriptions.Item label="QQ / TIM">2511134465</Descriptions.Item>
-            <Descriptions.Item label="电子邮箱">fu_tianchen@outlook.com</Descriptions.Item>
+            <Descriptions.Item label="电子邮箱">Mahiru_@outlook.com</Descriptions.Item>
             <Descriptions.Item label="兴趣/技术方向">
-                前端<br/>
-                JS,React<br/>
-                摄影(也就是三脚猫功夫)<br/>
-                PS (主要做轻度修图以及平面设计)<br/>
-                摆弄音乐设备(由于没钱已退坑)
+                前端开发，人机交互与体验设计方向<br/>
+                JavaScript / TypeScript, React, Vue<br/>
+                PS（主要做轻度修图以及平面设计）<br/>
+                摆弄音乐设备（由于没钱已退坑）<br/>
+                事二次元，Galgame 爱好者～(∠・ω&lt; )⌒★<br/>
             </Descriptions.Item>
-            <Descriptions.Item label="专业信息">
-                安徽大学计算机科学与技术学院-软件工程
+            <Descriptions.Item label="教育经历">
+                安徽大学（本科 211）——软件工程专业
             </Descriptions.Item>
-            <Descriptions.Item label="请详细阅读">
-                此人患有轻度社交恐惧症，你不去联系他他是几乎不可能主动联系你的。
+            <Descriptions.Item label="当前状态">
+                鹅厂实习搬砖中，正在经历 2023 届地狱级校招。
+            </Descriptions.Item>
+            <Descriptions.Item label="个人项目">
+                <a href="https://github.com/MakinoharaShoko/WebGAL" target="_blank" rel="noopener">WebGAL</a>, 全新的网页端视觉小说引擎<br/>
+                <a href="https://github.com/MakinoharaShoko/CloudLog.JS" target="_blank" rel="noopener">CloudLog</a>, JavaScript 日志工具，格式化输出 & 上传 & 在线可视化查看
             </Descriptions.Item>
         </Descriptions>
+        <div style={{textAlign:'center',padding:'2em 0 2em 0',fontSize:'large',fontWeight:'bold'}}>个人经历</div>
         <Timeline mode="alternate" style={{padding: '20px 0 0 0'}}>
             <Timeline.Item>开始学习前端技术 2020-02-06</Timeline.Item>
             <Timeline.Item color="green">自制 Hexo 个人博客主题 2020-02-16</Timeline.Item>

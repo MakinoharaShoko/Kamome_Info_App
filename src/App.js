@@ -1,6 +1,4 @@
 import './App.css';
-import { Menu } from 'antd';
-import { InfoCircleOutlined ,LinkOutlined } from '@ant-design/icons';
 import Navi from "./Components/NaviBar/NaviBar";
 import {useState} from "react";
 import About from "./Page/About/About";

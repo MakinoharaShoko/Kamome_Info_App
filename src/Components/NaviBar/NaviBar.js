@@ -6,7 +6,7 @@ const { SubMenu } = Menu;
 
 class Navi extends React.Component {
     state = {
-        current: 'mail',
+        current: 'About',
     };
 
     handleClick = e => {
