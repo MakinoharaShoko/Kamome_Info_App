@@ -21,7 +21,8 @@ const About = () => {
                 安徽大学（本科 211）——软件工程专业
             </Descriptions.Item>
             <Descriptions.Item label="当前状态">
-                鹅厂实习搬砖中，正在经历 2023 届地狱级校招。
+                秋招 last day，知无不言<br/>
+                  >>>  你在玩一种很新的东西
             </Descriptions.Item>
             <Descriptions.Item label="个人项目">
                 <a href="https://github.com/MakinoharaShoko/WebGAL" target="_blank" rel="noopener">WebGAL</a>, 全新的网页端视觉小说引擎<br/>
@@ -44,6 +45,7 @@ const About = () => {
             <Timeline.Item color='red'>WebGAL 星标突破 1000 2022-6-08</Timeline.Item>
             <Timeline.Item>加入快手实习 2022-6-27</Timeline.Item>
             <Timeline.Item>加入腾讯实习 2022-8-23</Timeline.Item>
+            <Timeline.Item>返校待业摆烂 2022-11-11</Timeline.Item>
             <Timeline.Item dot={<ClockCircleOutlined style={{fontSize: '16px'}}/>}>
                 继续学习，继续务实
             </Timeline.Item>
